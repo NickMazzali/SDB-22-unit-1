@@ -1,4 +1,7 @@
 .outline-box {
-    outline: 3px solid tomato;
-    }
+  outline: 3px solid tomato;
+}
 
+div > a {
+  background-color: green;
+}
