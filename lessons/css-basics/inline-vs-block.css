@@ -2,6 +2,17 @@
   outline: 3px solid tomato;
 }
 
-div > a {
+section > div > a {
   background-color: green;
+  padding-left: 250px;
+  padding-right: 250px;
+padding-top: 150px;
+padding-bottom: 150px;
+ /* this is the same as above: 
+ padding: 150px 250px; */
+  display: inline-block;
+}
+
+div> a:hover{
+    background-color: blueviolet;
 }
