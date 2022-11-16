@@ -1,0 +1,88 @@
+.wrapper{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.face{
+    border: solid 2px black;
+    border-radius: 40%;
+    height:300px;
+    width:150px;
+    background-color: rgba(109, 40, 5, 0.624); 
+}
+.eye{
+    border: solid 1px black;
+    position: relative;
+    height:50px;
+    width: 40px;
+    background-color: white;
+    border-radius: 25px;
+
+}
+.iris{
+
+}
+
+.left{
+    left:30px;
+    top:75px;
+}
+.right{
+    left:90px;
+    top:22px;
+}
+
+.nose{
+    border: solid 3px black;
+    background-color: rgba(169, 92, 3, 0.848);
+    border-radius: 70%;
+    height:70px;
+    width:40px;
+    position: relative;
+    top:10px;
+    left:60px;
+}
+.moustache{
+    width:120px;
+    height:30px;
+    background-color: black;
+    margin:16px;
+    top:-5px;
+    left:7px;
+    position:relative;
+    border-radius: 45px 45px 0 0;
+}
+
+.mouth{
+    width:70px;
+    height: 30px;
+    background-color: red;
+    border-radius:0px 0px 30px 30px;
+    left: 45px;
+    top: -15px;
+    position: relative;
+}
+
+.hat{
+    width:140px;
+    height:80px;
+    background-color: black;
+    margin:16px;
+    BOTTOM:300px;
+    left:-15px;
+    position:relative;
+    border-radius: 45px 45px 0 0;
+}
+
+.brim{
+    width:170px;
+    height:30px;
+    background-color: black;
+    margin:16px;
+    bottom:340px;
+    left:-25px;
+    position:relative;
+    border-radius: 45px 45px 45px 45px;
+    border: solid 1px gray;
+}
