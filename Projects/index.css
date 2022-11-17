@@ -1,5 +1,7 @@
 body{
-     
+    background:url(https://img.freepik.com/premium-vector/flag-confetti-party-colorful-celebration-background_29865-3344.jpg?w=2000);
+   image-rendering: auto;
+    
 }
 
 h1{
@@ -81,12 +83,42 @@ h4{
 
 }
 
+footer{
+    text-align: center;
+    font-size: 2vw;
+}
+/* player info & rounds */
+.wrapper2{
+    text-align: center;
+}
+/* submit answer & buttons */
+.wrapper3{
+    text-align: center;
+    padding: 1vw;
+}
 button{
     font-size: 2vw;
     padding: 1vw;
 }
 
+/* index image */
+img{
+    height: 30vw;
+    width: 50vw;
+    display: block;
+    margin: auto;
+
+}
+/* index button specific */
+.index{
+    display: block;
+    margin: auto;
+    margin-top: 3vw;
+}
+/* footer things */
 footer{
-    text-align: center;
-    font-size: 2vw;
+    display: block;
+    margin-top: 1vw;
+    border: .1vw rgb(250, 141, 159) solid;
+    background-color: rgb(180, 108, 247);
 }
