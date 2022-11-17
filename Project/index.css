@@ -2,4 +2,34 @@ h1{
     text-align: center;
 }
 
+h3{
+    text-align: center;
+}
 
+.wrapper{
+    display: grid;
+    gap: 2vw;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "easy1 easy12 easy13 easy14 easy15 easy16"
+    "easy2 easy22 easy23 easy24 easy25 easy26"
+    "medium medium2 medium3 medium4 medium5 medium6"
+    "hard1 hard12 hard13 hard14 hard15 hard16"
+    "hard2 hard22 hard23 hard24 hard25 hard26"
+    ;
+
+}
+
+.box{
+    border: solid blueviolet .5vw;
+    text-align: center;
+    color: rgb(180, 108, 247);
+    background-color: black;
+}
+
+.player1{
+
+}
+.player2{
+
+}
