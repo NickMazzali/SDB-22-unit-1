@@ -1,0 +1,12 @@
+.container{
+    border: 5px solid #ffcc5c;
+    display: flex;
+    /* to change from horizontal to vertical */
+    /* flex-direction: column; */
+}
+/* flex has axis it is defaulted to row and can be switched to column */
+@media screen and (max-width: 970px) {
+    .container {
+      flex-direction: column;
+    }
+}

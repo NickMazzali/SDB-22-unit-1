@@ -1,0 +1,15 @@
+.container{
+    border: 5px solid #ffcc5c;
+    display: flex;
+}
+
+/* ! if we wanted the about and logout on the far side */
+
+/* .about{
+    margin-left: auto;
+} */
+
+/*  ! if only logout on the far side */
+.logout{
+    margin-left: auto;
+}

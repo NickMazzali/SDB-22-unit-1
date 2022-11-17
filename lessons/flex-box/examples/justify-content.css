@@ -1,0 +1,13 @@
+.container{
+    border: 5px solid #ffcc5c;
+    display: flex;
+    justify-content:flex-end ;
+}
+
+/* flex-start (default)
+flex-end shifts things right or bottom based on direction, 
+center ,
+space-around puts space on either side of each item,
+space-between puts equal space(by item) between items but not the outside,
+space-evenly equal space between each item,
+ */
