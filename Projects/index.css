@@ -1,5 +1,10 @@
+body{
+     
+}
+
 h1{
     text-align: center;
+    
 }
 
 h3{
@@ -8,7 +13,7 @@ h3{
 
 .wrapper{
     display: grid;
-    gap: 2vw;
+    gap: 1vw;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: 
     "easy1 easy12 easy13 easy14 easy15 easy16"
@@ -26,10 +31,62 @@ h3{
     color: rgb(180, 108, 247);
     background-color: black;
 }
+.box:hover{
+    border: solid rgb(224, 249, 0) .5vw;
+    text-align: center;
+    color: rgb(50, 164, 246);
+    background-color: rgb(164, 0, 123);
+}
+
+.box1{border: solid rgba(224, 249, 0, 0.889) .5vw;
+    text-align: center;
+    color: rgb(50, 164, 246);
+    background-color: rgb(164, 0, 123);
+    font-size: 2.5vw;
+    padding: 1vw;
+}
 
 .player1{
+    border: solid blueviolet .3vw;
+    border-radius: 5vw;
+    text-align: center;
+    color: rgb(180, 108, 247);
+    align-items: center;
 
 }
 .player2{
+    border: solid blueviolet .3vw;
+    border-radius: 5vw;
+    text-align: center;
+    color: rgb(180, 108, 247);
+    align-items: center;
 
+}
+.div4{
+    background-color: black;
+  padding-left: 25px;
+  padding-right: 25px;
+padding-top: 15px;
+padding-bottom: 15px;
+ margin: 2vw;
+  display: inline-block;
+  
+}
+h4{
+    border: .1vw black solid;
+    text-align: center;
+    display: inline-block;
+    padding-left: 5vw;
+    padding-right: 5vw;
+
+}
+
+button{
+    font-size: 2vw;
+    padding: 1vw;
+}
+
+footer{
+    text-align: center;
+    font-size: 2vw;
 }
